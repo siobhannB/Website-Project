@@ -45,5 +45,6 @@ a:hover{
 }
 
 .h2{
-    font-size:2.4em; /*font size not changing for some reason*/
+    font-size:2.4em; /*font size not changing for some reason, also font not working*/
+    font-family: 'Bungee Shade', cursive;
 }
