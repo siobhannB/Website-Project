@@ -20,5 +20,30 @@ a:hover{
 
 .fremantle{
     /*color:white; */
-    font-size:2.5em;
+    font-size:2.0em;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.herobg{  /*img needs to be changed as it is blurry*/
+    background: url(images/header-bg.jpg);
+    background-size: cover;
+}
+
+.herobg h1{
+    font-family: 'Unica One', cursive;
+    float:right;
+    color:#ffff;
+    width:361px;
+    font-size:3.4em;
+    font-weight:400;
+    margin-top:100px;
+    text-align:left;
+    padding-bottom:10%;
+}
+
+.h2{
+    font-size:2.4em; /*font size not changing for some reason*/
 }
