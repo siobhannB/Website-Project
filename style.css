@@ -30,6 +30,7 @@ a:hover{
 .herobg{  /*img needs to be changed as it is blurry*/
     background: url(images/header-bg.jpg);
     background-size: cover;
+    padding-bottom: 10%;
 }
 
 .herobg h1{
@@ -45,17 +46,89 @@ a:hover{
 }
 
 .eventsbg{
-    padding-bottom:20%;
+    padding-bottom:15%;
+    
 }
+
+/*.oceanalley{
+    padding-top: 15%;
+    
+}*/
+
 .eventsbg h2{
-    font-size:2.4em; /*font size not changing for some reason, also font not working*/
+    font-size:2.4em; 
     font-family: 'Bungee Shade', cursive;
+    padding-bottom: 10%;
 }
+
+.eventsbg h3{
+    font-family: 'Backslash', sans-serif;
+    font-size:1.8em;
+}
+
+
+p#spaceyjane{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p#date1{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.eventsbg h4{
+    font-family: 'Backslash', sans-serif;
+    font-size:1.8em;
+}
+
+p#oceanalley{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p#date2{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.eventsbg h5{
+    font-family: 'Backslash', sans-serif; 
+    font-size:1.8em;
+}
+   
+p#aboriginalartists{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p#date3{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 .creativitybg{
     background: url(images/creativitybg.jpg); /*image is blurry needs to be changed*/
     background-size: cover;
+    padding-bottom: 25%;
 }
+
+.creativitybg h6{
+     font-family: 'Bungee Shade', cursive;
+    font-size: 2.0em;
+    padding-top: 10%;
+}
+
+
+p#artcentre{
+     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .historybg{
     background: url(images/historybg.jpg);
