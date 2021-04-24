@@ -4,10 +4,16 @@ font-size:16px;
 
 .navbar{
     font-size:0.875em;
+    background: url(images/navbar.jpg);
+    background-size:cover;
+    padding-bottom:1%;
 }
 
 a{
 color:white;  /*to be changed to white later*/
+     font-family: 'Unica One', cursive;
+    font-size: 1.5em;
+    
 }
 
 a:hover{
@@ -16,11 +22,13 @@ a:hover{
 
 .nav > li > a:hover{
     background-color: transparent;
+    
 }
 
 .fremantle{
     /*color:white; */
     font-size:2.0em;
+     font-family: 'Unica One', cursive;
 }
 
 .navbar-toggle .icon-bar{
@@ -119,8 +127,9 @@ p#date3{
 
 .creativitybg h6{
      font-family: 'Bungee Shade', cursive;
-    font-size: 2.0em;
+    font-size: 3.0em;
     padding-top: 10%;
+    color:white;
 }
 
 
@@ -133,11 +142,43 @@ p#artcentre{
 .historybg{
     background: url(images/historybg.jpg);
     background-size:cover;
+    padding-bottom: 25%;
 }
 
-.fremantle{
-    font-family: 'Unica One', cursive;
-    color:#ffff;
-    font-size:2.4em;
-    font-weight:400;
+.historybg h7{
+     font-family: 'Bungee Shade', cursive;
+    font-size: 4.0em;
+    padding-top: 15%;
+    color: white;
+}
+
+p#historytext{
+    padding-top: 5%;
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+p#historytext2{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+p#historytext3{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+footer{
+    padding-bottom: 1%;
+    background: url(images/footer.jpg);
+    background-size:cover;
+}
+
+p#contactinfo{
+    padding-top: 3%;
+    font-family: 'Nova Round', cursive;
+    color:white;
 }
