@@ -7,7 +7,7 @@ font-size:16px;
 }
 
 a{
-color:black;  /*to be changed to white later*/
+color:white;  /*to be changed to white later*/
 }
 
 a:hover{
@@ -44,7 +44,27 @@ a:hover{
     padding-bottom:10%;
 }
 
-.h2{
+.eventsbg{
+    padding-bottom:20%;
+}
+.eventsbg h2{
     font-size:2.4em; /*font size not changing for some reason, also font not working*/
     font-family: 'Bungee Shade', cursive;
+}
+
+.creativitybg{
+    background: url(images/creativitybg.jpg); /*image is blurry needs to be changed*/
+    background-size: cover;
+}
+
+.historybg{
+    background: url(images/historybg.jpg);
+    background-size:cover;
+}
+
+.fremantle{
+    font-family: 'Unica One', cursive;
+    color:#ffff;
+    font-size:2.4em;
+    font-weight:400;
 }
