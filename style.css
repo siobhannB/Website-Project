@@ -38,7 +38,9 @@ a:hover{
 .herobg{  /*img needs to be changed as it is blurry*/
     background: url(images/header-bg.jpg);
     background-size: cover;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .herobg h1{
@@ -50,11 +52,33 @@ a:hover{
     font-weight:400;
     margin-top:100px;
     text-align:left;
-    padding-bottom:10%;
+    padding-bottom:1%;
 }
 
+.btn1{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    width: 200px;
+    height:100x;
+    border-radius:25px;
+    margin-left: 60%; 
+}
+
+
 .eventsbg{
-    padding-bottom:15%;
+    
+    background-image: url(images/eventsbg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-bottom: 32%;
     
 }
 
@@ -63,61 +87,134 @@ a:hover{
     
 }*/
 
+.eventscontent{
+   
+    padding-left:0px;
+    
+    
+}
+
 .eventsbg h2{
     font-size:2.4em; 
     font-family: 'Bungee Shade', cursive;
-    padding-bottom: 10%;
+    padding-top: 5%;
 }
 
 .eventsbg h3{
     font-family: 'Backslash', sans-serif;
-    font-size:1.8em;
+    font-size:1.0em;
+    padding-top:35px;
+   
+    
 }
 
 
 p#spaceyjane{
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 p#date1{
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
 }
+
+
+.btn2{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
 
 .eventsbg h4{
     font-family: 'Backslash', sans-serif;
-    font-size:1.8em;
+    font-size:1.0em;
+    padding-top:35px;
+    
 }
 
 p#oceanalley{
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
 }
 
 p#date2{
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
 }
 
+
+
+.btn3{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
 
 .eventsbg h5{
     font-family: 'Backslash', sans-serif; 
-    font-size:1.8em;
+    font-size:1.0em;
+    padding-top:35px;
+    
 }
-   
+
+
 p#aboriginalartists{
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
 }
 
 
 p#date3{
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
 }
 
 
+
+.btn4{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
 
 .creativitybg{
     background: url(images/creativitybg.jpg); /*image is blurry needs to be changed*/
@@ -127,15 +224,35 @@ p#date3{
 
 .creativitybg h6{
      font-family: 'Bungee Shade', cursive;
-    font-size: 3.0em;
+    font-size: 4.0em;
     padding-top: 10%;
     color:white;
+   
 }
+
 
 
 p#artcentre{
      font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    font-size:1.2em; 
+}
+
+
+.btn5{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
 }
 
 
@@ -143,7 +260,13 @@ p#artcentre{
     background: url(images/historybg.jpg);
     background-size:cover;
     padding-bottom: 25%;
+    background-position:center;
+    
+    
 }
+
+    
+
 
 .historybg h7{
      font-family: 'Bungee Shade', cursive;
@@ -153,11 +276,20 @@ p#artcentre{
 
 }
 
+.historyblock{
+/*    padding-left:10%;*/
+    text-align:left;
+/*    left:250px;*/
+    
+}
+
 p#historytext{
     padding-top: 5%;
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     color: white;
+
+    
 }
 
 p#historytext2{
@@ -172,6 +304,37 @@ p#historytext3{
     color:white;
 }
 
+.btn6{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
+#facebook{
+    padding-top:30px;
+    float:right;
+ 
+}
+#instagram{
+    padding-top:30px;
+    float:right;
+}
+
+#twitter{
+    padding-top:30px;
+    float:right;
+}
+
 footer{
     padding-bottom: 1%;
     background: url(images/footer.jpg);
@@ -182,4 +345,13 @@ p#contactinfo{
     padding-top: 3%;
     font-family: 'Nova Round', cursive;
     color:white;
+
+    
+}
+
+@media screen and (max-width: 1200px){
+    
+      .historyblock{
+        text-align:center;
+    }  
 }
