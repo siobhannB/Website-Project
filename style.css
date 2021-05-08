@@ -43,6 +43,10 @@ a:hover{
     padding-right: 0px;
 }
 
+.tagblock{
+    float:right;
+}
+
 .herobg h1{
     font-family: 'Unica One', cursive;
     float:right;
@@ -53,7 +57,10 @@ a:hover{
     margin-top:100px;
     text-align:left;
     padding-bottom:1%;
+ 
 }
+
+
 
 .btn1{
   font-weight: 400;
@@ -68,8 +75,8 @@ a:hover{
   font-size: 16px;
     width: 200px;
     height:100x;
-    border-radius:25px;
-    margin-left: 60%; 
+    border-radius:25px; 
+    float:right; 
 }
 
 
@@ -136,6 +143,7 @@ p#date1{
       width: 200px;
     height:100x;
     border-radius:25px;
+    margin-top:10px; 
 }
 
 
@@ -174,6 +182,7 @@ p#date2{
       width: 200px;
     height:100x;
     border-radius:25px;
+     margin-top:10px; 
 }
 
 .eventsbg h5{
@@ -214,6 +223,7 @@ p#date3{
       width: 200px;
     height:100x;
     border-radius:25px;
+     margin-top:10px; 
 }
 
 .creativitybg{
@@ -227,6 +237,8 @@ p#date3{
     font-size: 4.0em;
     padding-top: 10%;
     color:white;
+    
+    
    
 }
 
@@ -280,6 +292,7 @@ p#artcentre{
 /*    padding-left:10%;*/
     text-align:left;
 /*    left:250px;*/
+    
     
 }
 
@@ -345,6 +358,7 @@ p#contactinfo{
     padding-top: 3%;
     font-family: 'Nova Round', cursive;
     color:white;
+    
 
     
 }
