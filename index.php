@@ -10,7 +10,7 @@
                <h3>Spacey Jane: MUSIC</h3>
           <p id="spaceyjane">Following huge demand for their first show, Spacey Jane announced a second date on their forthcoming national Sunlight tour. They're joined by special guests Jack Davies and the Bush Chooks.</p>
           <p id="date1">Sat 10 Apr  2021  |  6:00pm — 10:00pm | South Lawn</p>
-              <img src="http://206.189.45.97/~mesh1/wp-content/themes/fremantle_theme_wp_fiinished/images/event1.jpg" alt="spaceyjane" >
+              <img src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/event1.png" alt="spaceyjane" >
                
                 <button type="button" class="btn2">Find Out More</button>
            </div>
@@ -19,7 +19,7 @@
           <h4>RESCHEDULED Ocean Alley: MUSIC</h4>
           <p id="oceanalley">Ocean Alley are stoked to reveal their first national tour of Australia since 2018 winds up on FAC’s South Lawn on Sat 11 Sep, <br> supported by Psychedelic Porn Crumpets and Dulcie.</p>
           <p id="date2">Sat 11 Sep 2021  |  6:00pm — 10:00pm |South Lawn</p>
-                  <img src="http://206.189.45.97/~mesh1/wp-content/themes/fremantle_theme_wp_fiinished/images/event2.jpg"alt="oceanalley" > 
+                  <img src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/event2.png"alt="oceanalley" > 
                     <button type="button" class="btn3">Find Out More</button>
           </div>
               
@@ -27,7 +27,7 @@
           <h5>New And Emerging Aboriginal Artists: EXHIBITION</h5>
           <p id="aboriginalartists">Presenting the best new and emerging Aboriginal artists from remote, regional and metro WA, Revealed 2021 will showcase artworks across painting, installation, textiles and photography</p>
           <p id="date3">Fri  26 Mar 2021-Sun 23 May 2021  |  10:00am — 5:00pm | South Wing and Collection Galleries</p>
-                <img src="http://206.189.45.97/~mesh1/wp-content/themes/fremantle_theme_wp_fiinished/images/event3.jpg"alt="new and emerging aboriginal artists" > 
+                <img src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/event3.png"alt="new and emerging aboriginal artists" > 
                   <button type="button" class="btn4">Find Out More</button>
         </div>
               
