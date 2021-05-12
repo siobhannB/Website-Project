@@ -1,58 +1,27 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
       <section class="container-fluid eventsbg text-center ">
       <div class="container eventscontent">
-          <div class="row">
-            <div>
-          <h2>Events On Now</h2>
-            </div>
-              
-          <div class="col-md-4">
-               <h3>Spacey Jane: MUSIC</h3>
-          <p id="spaceyjane">Following huge demand for their first show, Spacey Jane announced a second date on their forthcoming national Sunlight tour. They're joined by special guests Jack Davies and the Bush Chooks.</p>
-          <p id="date1">Sat 10 Apr  2021  |  6:00pm — 10:00pm | South Lawn</p>
-              <img src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/event1.png" alt="spaceyjane" >
-               
-                <button type="button" class="btn2">Find Out More</button>
-           </div>
-              
-              <div class="col-md-4">
-          <h4>RESCHEDULED Ocean Alley: MUSIC</h4>
-          <p id="oceanalley">Ocean Alley are stoked to reveal their first national tour of Australia since 2018 winds up on FAC’s South Lawn on Sat 11 Sep, <br> supported by Psychedelic Porn Crumpets and Dulcie.</p>
-          <p id="date2">Sat 11 Sep 2021  |  6:00pm — 10:00pm |South Lawn</p>
-                  <img src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/event2.png"alt="oceanalley" > 
-                    <button type="button" class="btn3">Find Out More</button>
-          </div>
-              
-            <div class="col-md-4">
-          <h5>New And Emerging Aboriginal Artists: EXHIBITION</h5>
-          <p id="aboriginalartists">Presenting the best new and emerging Aboriginal artists from remote, regional and metro WA, Revealed 2021 will showcase artworks across painting, installation, textiles and photography</p>
-          <p id="date3">Fri  26 Mar 2021-Sun 23 May 2021  |  10:00am — 5:00pm | South Wing and Collection Galleries</p>
-                <img src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/event3.png"alt="new and emerging aboriginal artists" > 
-                  <button type="button" class="btn4">Find Out More</button>
-        </div>
-              
-              
-              
-          </div>
-         <!-- row-->
-          </div>
-       <!--   container-->
+     
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=11');//look for posts that have the category of 2
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
+            <div><p class="about-text"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>    
+    	
+ <div class="blocker"></div>
+            
+      </div><!--  container-->
+    </section>
+
     
-      </section>
-      
-      <section class="container-fluid creativitybg">
-      <div class="container">
-          <div class="row">
-         <div class="col-md-6">
-           <h6>Unlock Your <br>Creativity</h6>
-          <p id="artcentre">Fremantle Art Centre has a range of <br> creative art courses suited for both <br> adults and kids. Whether you like <br> making jewellery, art prints or <br> sculptures, there is a course for <br> everyone and anyone.</p>
-             <button type="button" class="btn5">Find Out More</button>
-            </div> <!--col div-->
-          </div> <!--row div-->
-    
-          </div>
-         <!-- container div-->
-      </section>
       
        <section class="container-fluid historybg">
       <div class="container">
