@@ -1,5 +1,8 @@
-body{
+html,body{
 font-size:16px;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 
 .navbar{
@@ -49,7 +52,6 @@ a:hover{
 
 .herobg h1{
     font-family: 'Unica One', cursive;
-    float:right;
     color:#ffff;
     width:361px;
     font-size:3.4em;
@@ -57,6 +59,7 @@ a:hover{
     margin-top:100px;
     text-align:left;
     padding-bottom:1%;
+
  
 }
 
@@ -76,7 +79,8 @@ a:hover{
     width: 200px;
     height:100x;
     border-radius:25px; 
-    float:right; 
+    margin-left:20%;
+    
 }
 
 
@@ -234,9 +238,10 @@ p#date3{
 
 .creativitybg h6{
      font-family: 'Bungee Shade', cursive;
-    font-size: 4.0em;
+    font-size: 3.0em;
     padding-top: 10%;
     color:white;
+    
     
     
    
@@ -363,9 +368,55 @@ p#contactinfo{
     
 }
 
+
+@media screen and (max-width: 1200px){
+    
+      .herobg h1{
+        text-align:center;
+    }  
+}
+
+
+
 @media screen and (max-width: 1200px){
     
       .historyblock{
         text-align:center;
     }  
 }
+
+@media screen and (max-width: 1200px){
+    
+      p#contactinfo{
+        text-align:center;
+    }  
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    
+      #twitter{
+    float: none;
+    }  
+}
+
+@media screen and (max-width: 1200px){
+    
+      #facebook{
+    float: none;
+    }  
+}
+
+@media screen and (max-width: 1200px){
+    
+      #instagram{
+    float: none;
+    }  
+}
+
+
+
+
