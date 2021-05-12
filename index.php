@@ -1,27 +1,66 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
       <section class="container-fluid eventsbg text-center ">
       <div class="container eventscontent">
-     
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=11');//look for posts that have the category of 2
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
-            <div><p class="about-text"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>    
-    	
- <div class="blocker"></div>
-            
-      </div><!--  container-->
-    </section>
+          <div class="row">
+            <div>
+          <h2>Events On Now</h2>
+            </div>
+              
+          <div class="col-md-4">
+<?php $post_id = 5451;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h3><?php echo $queried_post->post_title; ?></h3>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
+ 
 
+           </div>
+              
+              <div class="col-md-4">
+<?php $post_id = 5453;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
+ 
+
+          </div>
+              
+            <div class="col-md-4">
+<?php $post_id = 5455;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h5><?php echo $queried_post->post_title; ?></h5>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
+ 
+
+        </div>
+              
+              
+              
+          </div>
+         <!-- row-->
+          </div>
+       <!--   container-->
     
+      </section>
+      
+      <section class="container-fluid creativitybg">
+      <div class="container">
+          <div class="row">
+         <div class="col-md-6">
+           <h6>Unlock Your <br>Creativity</h6>
+          <p id="artcentre">Fremantle Art Centre has a range of <br> creative art courses suited for both <br> adults and kids. Whether you like <br> making jewellery, art prints or <br> sculptures, there is a course for <br> everyone and anyone.</p>
+             <button type="button" class="btn5">Find Out More</button>
+            </div> <!--col div-->
+          </div> <!--row div-->
+    
+          </div>
+         <!-- container div-->
+      </section>
       
        <section class="container-fluid historybg">
       <div class="container">
