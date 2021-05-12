@@ -10,11 +10,11 @@
               </div>
               <div class="col-md-6 text-center">
            <!--   social media icons to be placed in this section-->
-                  <img id="facebook" src="http://206.189.45.97/~mesh1/wp-content/themes/fremantle_theme_wp_fiinished/images/facebook.jpg" alt="facebook"> <!--image needs to have clear background-->
+                  <img id="facebook" src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/facebook.png" alt="facebook"> <!--image needs to have clear background-->
                   
-                  <img id="instagram" src="http://206.189.45.97/~mesh1/wp-content/themes/fremantle_theme_wp_fiinished/images/instagram.jpg" alt="instagram">
+                  <img id="instagram" src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/instagram.png" alt="instagram">
                   
-                  <img id="twitter" src="http://206.189.45.97/~mesh1/wp-content/themes/fremantle_theme_wp_fiinished/images/twitter.jpg" alt="twitter">
+                  <img id="twitter" src="http://206.189.45.97/~mesh5/wp-content/themes/fremantle_theme_wp_fiinished/images/twitter.png" alt="twitter">
               </div>
           
           </div> 
