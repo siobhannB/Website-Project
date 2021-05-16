@@ -63,16 +63,17 @@
         </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">What's On</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">For Artists</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
      
+<ul class="nav navbar-nav navbar-right">
+  <?php wp_nav_menu(array(
+        'menu' => 'Top Menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
+ 
     </div>
   </div>
 </nav>
