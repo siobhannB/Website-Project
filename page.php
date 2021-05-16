@@ -1,3 +1,13 @@
+<?php
+/*
+Template Name: Services
+*/
+?>
+<?php
+/*
+Template Name: Blog
+*/
+?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <div class="container-fluid maincontainer">
     <div class="container">
@@ -29,7 +39,7 @@
 	</article><!---->
 </section>
            
-     </div>
+<!--     </div>
     </div>
   </div>
-<?php get_footer(); ?>
+<?php get_footer(); ?>-->
