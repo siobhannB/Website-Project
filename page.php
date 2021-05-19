@@ -1,11 +1,6 @@
 <?php
 /*
-Template Name: Services
-*/
-?>
-<?php
-/*
-Template Name: Blog
+Template Name: Your Template Name
 */
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
