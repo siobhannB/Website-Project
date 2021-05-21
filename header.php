@@ -50,7 +50,7 @@
 <?php wp_head(); ?> 
   </head>
   <body>
-      <header class="container-fluid herobg"> <!--div for the main image -->
+   <header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
       <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -81,7 +81,7 @@
     
       <div class="container">
           <div class="col-md-6 tagblock">
-        <h1>Jam Out to <br> Jazz, Classical, Reggae and Rock</h1>
+         <h1><?php the_field('maintagline'); ?></h1>
           <button type="button" class="btn1">Book Now</button>
         </div> <!--container-->
           </div>
