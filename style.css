@@ -321,6 +321,8 @@ p#artcentre{
 /*    padding-left:10%;*/
     text-align:left;
 /*    left:250px;*/
+    color:white;
+   
     
     
 }
@@ -329,7 +331,8 @@ p#historytext{
     padding-top: 5%;
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+     
+   
 
     
 }
@@ -337,13 +340,14 @@ p#historytext{
 p#historytext2{
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-    color:white;
+ 
+    
 }
 
 p#historytext3{
       font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-    color:white;
+   
 }
 
 .btn6{
@@ -391,6 +395,48 @@ p#contactinfo{
 
     
 }
+
+h8#post-5480.posttitle{
+     font-family: 'Unica One', cursive;
+    color:#ffff;
+    width:361px;
+    font-size:3.4em;
+    font-weight:400;
+    margin-top:100px;
+    text-align:center;
+    padding-bottom:10%;
+/*    services header needs to be moved on top of grey rectangle*/
+    
+}
+
+h9{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:2em;
+    display: inline-block;
+/*    header for sunday music applications*/
+}
+
+p#sundaymusic{
+     font-family: 'Nova Round', cursive;
+    color:black;
+   
+}
+
+
+
+
+p#proposals{
+     font-family: 'Nova Round', cursive;
+    color:black;
+   
+}
+
+p#venuehire{
+     font-family: 'Nova Round', cursive;
+    color:black;
+   
+}
+
 
 
 @media screen and (max-width: 1200px){
