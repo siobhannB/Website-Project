@@ -50,7 +50,7 @@
 <?php wp_head(); ?> 
   </head>
   <body>
-      <header class="container-fluid herobg"> <!--div for the main image -->
+      <header class="container-fluid small_herobg"> <!--div for the main image -->
       <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
