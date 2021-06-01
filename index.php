@@ -1,11 +1,15 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-      <section class="container-fluid eventsbg text-center ">
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('main_tag') ) : 
+endif; ?> 
+<section class="container-fluid eventsbg text-center ">
+            
       <div class="container eventscontent">
           <div class="row">
             <div>
           <h2>Events On Now</h2>
+
             </div>
-              
+               
           <div class="col-md-4">
 <?php $post_id = 5451;
 $queried_post = get_post($post_id);?>
