@@ -30,3 +30,36 @@ add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
         /*echo '<a class="btn1" href="'.get_permalink($queried_post).'">Book Now</a>'*/
 	}
 ?>
+
+<?php
+function tagline(){
+
+	register_sidebar(array(
+		'name'          => 'main tagline',
+		'id'            => 'main_tag',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="rounded">',
+		'after_title'   => '</h1>',
+	));
+
+}
+add_action( 'widgets_init', 'tagline' );
+?>
+
+<?php
+add_action('wp_enqueue_scripts', 'sk_wow_init_in_footer');
+
+function sk_wow_init_in_footer() {
+    
+    add_action( 'print_footer_scripts', 'wow_init');
+}
+
+function wow_init() { ?>
+<script type="text/javascript">
+
+ new WOW().init();
+    
+</script>
+
+<?php }
