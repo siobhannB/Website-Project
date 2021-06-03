@@ -74,8 +74,11 @@ a:hover{
     background:url(images/small_header_bg.jpg) no-repeat center center;
     background-size:cover;
     height:40vh;
+    padding-left:0px;
+    padding-right:0px;
     
 }
+
 
 .tagblock{
     float:right;
