@@ -17,11 +17,14 @@ font-size:16px;
     overflow-x:hidden;
 }
 
+
+
 .navbar{
     font-size:0.875em;
     background: url(images/navbar.jpg);
     background-size:cover;
     padding-bottom:1%;
+    
 }
 
 a{
@@ -29,6 +32,10 @@ color:white;  /*to be changed to white later*/
      font-family: 'Unica One', cursive;
     font-size: 1.5em;
     
+}
+
+#text{
+    color:black;
 }
 
 a:hover{
@@ -396,18 +403,6 @@ p#contactinfo{
     
 }
 
-h8#post-5480.posttitle{
-     font-family: 'Unica One', cursive;
-    color:#ffff;
-    width:361px;
-    font-size:3.4em;
-    font-weight:400;
-    margin-top:100px;
-    text-align:center;
-    padding-bottom:10%;
-/*    services header needs to be moved on top of grey rectangle*/
-    
-}
 
 h9{
     font-family: 'Dela Gothic One', cursive;
@@ -422,7 +417,9 @@ p#sundaymusic{
    
 }
 
-
+.music{
+   padding-top:20px; 
+}
 
 
 p#proposals{
@@ -431,13 +428,160 @@ p#proposals{
    
 }
 
+.exhibitions{
+    float:right;
+}
+
 p#venuehire{
      font-family: 'Nova Round', cursive;
     color:black;
    
 }
 
+.btn7{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
 
+
+.btn8{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
+.btn9{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
+.btn10{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
+
+.btn11{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
+
+
+.btn12{
+  font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+     background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      width: 200px;
+    height:100x;
+    border-radius:25px;
+}
+
+
+p#date4{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
+}
+
+
+
+p#revealed{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
+}
+
+p#date5{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
+}
+
+p#hooks{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
+}
+
+p#date6{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
+}
+
+p#residence{
+      font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+    
+}
 
 @media screen and (max-width: 1200px){
     
