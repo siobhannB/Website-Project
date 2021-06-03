@@ -4,6 +4,7 @@
     */
     ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
+
       <section class="container-fluid eventsbg text-center ">
       <div class="container eventscontent">
           <div class="row">
