@@ -18,7 +18,7 @@ Template Name: home-page
           <p id="spaceyjane">Following huge demand for their first show, Spacey Jane announced a second date on their forthcoming national Sunlight tour. They're joined by special guests Jack Davies and the Bush Chooks.</p>
           <p id="date1">Sat 10 Apr  2021  |  6:00pm — 10:00pm | South Lawn</p>
               <img src="images/event1.png" alt="spaceyjane">
-                <button type="button" class="btn2">Find Out More</button>
+                <a href ="http://206.189.45.97/~mesh5/5451/" class="btn2" type="button">Find Out More</a>
            </div>
               
               <div class="col-md-4">
@@ -26,7 +26,7 @@ Template Name: home-page
           <p id="oceanalley">Ocean Alley are stoked to reveal their first national tour of Australia since 2018 winds up on FAC’s South Lawn on Sat 11 Sep, <br> supported by Psychedelic Porn Crumpets and Dulcie.</p>
           <p id="date2">Sat 11 Sep 2021  |  6:00pm — 10:00pm |South Lawn</p>
                   <img src="images/event2.png" alt="oceanalley">
-                    <button type="button" class="btn3">Find Out More</button>
+                 <a href ="http://206.189.45.97/~mesh5/5453/" class="btn3" type="button">Find Out More</a>
           </div>
               
             <div class="col-md-4">
@@ -34,7 +34,7 @@ Template Name: home-page
           <p id="aboriginalartists">Presenting the best new and emerging Aboriginal artists from remote, regional and metro WA, Revealed 2021 will showcase artworks across painting, installation, textiles and photography</p>
           <p id="date3">Fri  26 Mar 2021-Sun 23 May 2021  |  10:00am — 5:00pm | South Wing and Collection Galleries</p>
                 <img src="images/event3.png" alt="new and emerging aboriginal artists">
-                  <button type="button" class="btn4">Find Out More</button>
+                          <a href ="http://206.189.45.97/~mesh5/5455/" class="btn4" type="button">Find Out More</a>
         </div>
               
               
@@ -52,7 +52,7 @@ Template Name: home-page
          <div class="col-md-6">
            <h6>Unlock Your <br>Creativity</h6>
           <p id="artcentre">Fremantle Art Centre has a range of <br> creative art courses suited for both <br> adults and kids. Whether you like <br> making jewellery, art prints or <br> sculptures, there is a course for <br> everyone and anyone.</p>
-             <button type="button" class="btn5">Find Out More</button>
+             <a href ="http://206.189.45.97/~mesh5/5471/" class="btn5" type="button">Find Out More</a>
             </div> <!--col div-->
           </div> <!--row div-->
     
@@ -71,7 +71,7 @@ Template Name: home-page
           <p id="historytext2">In 1958, the old Fremantle Lunatic Asylum was <br> finally threatened with demolition and was saved <br> largely through the efforts of Sir Frederick <br> Samson, then Mayor of Fremantle. His vision for <br> the site was to establish both a Mariners’ Museum <br> and an Arts Centre. The building was restored <br> and the museum stage was finally completed in <br> 1970. <br> </p>
               
           <p id="historytext3">Fremantle Arts Centre opened in 1973, with Ian <br> Templeman as Founding Director. Templeman <br> relied on minimal resources and skeleton staff for <br> support and, over his 17 years at the helm, <br> developed Fremantle Arts Centre’s first programs <br> and services, including Fremantle Arts Centre<br>   Press.</p>
-                  <button type="button" class="btn6">Read More</button>
+                         <a href ="http://206.189.45.97/~mesh5/5476/" class="btn6" type="button">Read More</a>
           </div> <!--col div-->
              </div> <!--row div -->
           </div>
