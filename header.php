@@ -81,7 +81,8 @@
     
       <div class="container">
           <div class="col-md-6 tagblock">
-         <h1><?php the_field('maintagline'); ?></h1>
+<!--         <h1><?php the_field('maintagline'); ?></h1> this is what was causing the header from my homework to display on the home-page, I was also missing the h1 code which is now below-->
+              <h1>Jam Out to <br> Jazz, Classical, Reggae and Rock</h1>
           <button type="button" class="btn1">Book Now</button>
         </div> <!--container-->
           </div>
