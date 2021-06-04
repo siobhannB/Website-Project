@@ -28,5 +28,4 @@
 
   </body>
 </html>
-
 <?php wp_footer(); /* Tells WordPress to include footer.php */ ?>
