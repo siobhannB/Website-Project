@@ -73,12 +73,18 @@ a:hover{
     width:100%;
     background:url(images/small_header_bg.jpg) no-repeat center center;
     background-size:cover;
-    height:40vh;
+    height:20vh;
     padding-left:0px;
     padding-right:0px;
     
 }
 
+.servicecont{
+     padding-left:0px;
+    padding-right:0px;
+     background:url(images/eventsbg.jpg) no-repeat center center;
+    background-size:cover;
+}
 
 .tagblock{
     float:right;
@@ -97,7 +103,15 @@ a:hover{
  
 }
 
+.smallhead{
+    padding-right: 0px !important; 
+     padding-left: 0px !important;
+}
 
+.navbar{
+    
+  margin-bottom: 0px;
+}
 
 .btn1{
   font-weight: 400;
@@ -407,12 +421,60 @@ p#contactinfo{
 }
 
 
-h9{
+
+h10{
+      font-size:4.0em;
+     font-family: 'Unica One', cursive;
+    color:white;
+  
+    
+    
+}
+
+h11{
     font-family: 'Dela Gothic One', cursive;
     font-size:2em;
-    display: inline-block;
+    display: block;
 /*    header for sunday music applications*/
 }
+
+
+h12{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:2em;
+    display: block;
+/*    header for sunday music applications*/
+}
+
+h13{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:2em;
+    display: block;
+/*    header for sunday music applications*/
+}
+
+h14{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:2em;
+    display: block;
+/*    header for sunday music applications*/
+}
+
+
+h15{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:2em;
+    display: block;
+/*    header for sunday music applications*/
+}
+
+h16{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:2em;
+    display: block;
+/*    header for sunday music applications*/
+}
+
 
 p#sundaymusic{
      font-family: 'Nova Round', cursive;
@@ -420,9 +482,6 @@ p#sundaymusic{
    
 }
 
-.music{
-   padding-top:20px; 
-}
 
 
 p#proposals{
@@ -431,14 +490,28 @@ p#proposals{
    
 }
 
-.exhibitions{
-    float:right;
-}
+
 
 p#venuehire{
      font-family: 'Nova Round', cursive;
     color:black;
    
+}
+
+p#revealed{
+   font-family: 'Nova Round', cursive;
+    color:black; 
+}
+
+p#forest{
+   font-family: 'Nova Round', cursive;
+    color:black; 
+}
+
+
+p#residence{
+    font-family: 'Nova Round', cursive;
+    color:black;
 }
 
 .btn7{
@@ -450,11 +523,12 @@ p#venuehire{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
       width: 200px;
     height:100x;
     border-radius:25px;
+     margin:0 auto;
 }
 
 
@@ -467,11 +541,12 @@ p#venuehire{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
       width: 200px;
     height:100x;
     border-radius:25px;
+     margin:0 auto;
 }
 
 .btn9{
@@ -483,11 +558,12 @@ p#venuehire{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
       width: 200px;
     height:100x;
     border-radius:25px;
+     margin:0 auto;
 }
 
 .btn10{
@@ -499,11 +575,12 @@ p#venuehire{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-      width: 200px;
+      width: 300px;
     height:100x;
     border-radius:25px;
+    margin:0 auto; 
 }
 
 
@@ -516,11 +593,12 @@ p#venuehire{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-      width: 200px;
+      width: 300px;
     height:100x;
     border-radius:25px;
+     margin:0 auto;
 }
 
 
@@ -534,18 +612,19 @@ p#venuehire{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-      width: 200px;
+      width: 300px;
     height:100x;
     border-radius:25px;
+     margin:0 auto;
 }
 
 
 p#date4{
-      font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-      font-size: 10px;
+     font-family: 'Nova Round', cursive;
+    color:black;
+   
     
 }
 
@@ -559,10 +638,9 @@ p#revealed{
 }
 
 p#date5{
-      font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-      font-size: 10px;
-    
+     font-family: 'Nova Round', cursive;
+    color:black;
+   
 }
 
 p#hooks{
@@ -573,10 +651,9 @@ p#hooks{
 }
 
 p#date6{
-      font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-      font-size: 10px;
-    
+  font-family: 'Nova Round', cursive;
+    color:black;
+   
 }
 
 p#residence{
